@@ -1,0 +1,16 @@
+/*body*/
+h2{
+    font-size: 70px;
+    
+}
+.container{
+    background-color: #dedede;
+    text-align: center;
+    
+}
+
+.button-container{
+    background-color: rgb(131, 223, 131);
+    color: white;
+    font-size: small;
+}
