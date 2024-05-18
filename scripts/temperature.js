@@ -14,12 +14,12 @@ function convertTemperature() {
     
     if(scale=="c"){
         let c = (temperature - 32)*5/9;
-        document.getElementById("results1").innerHTML= "Answer in Celsius is: " + c;
-        console.log(c);
+        document.getElementById("results").innerHTML= "Answer in Celsius is: " + c;
+        //console.log(c);
     }else if(scale=="f"){
         let f = (temperature * 9/5)+32;           
-        document.getElementById("results2").innerHTML= "Answer in Fahrenheit is: " + f;
-        console.log(f);
+        document.getElementById("results").innerHTML= "Answer in Fahrenheit is: " + f;
+        //console.log(f);
     }
 }
 
